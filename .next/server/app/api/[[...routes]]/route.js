@@ -1,0 +1,16 @@
+const CHUNK_PUBLIC_PATH = "server/app/api/[[...routes]]/route.js";
+const runtime = require("../../../chunks/[turbopack]_runtime.js");
+runtime.loadChunk("server/chunks/node_modules_next_dist_ac0c3c._.js");
+runtime.loadChunk("server/chunks/node_modules_hono_dist_7d52ff._.js");
+runtime.loadChunk("server/chunks/node_modules_frog__lib_52fa2a._.js");
+runtime.loadChunk("server/chunks/node_modules_@shuding_opentype_js_dist_opentype_module_bd4366.js");
+runtime.loadChunk("server/chunks/node_modules_satori_dist_index_wasm_09d81e.js");
+runtime.loadChunk("server/chunks/node_modules_viem__esm_25e9f5._.js");
+runtime.loadChunk("server/chunks/node_modules_@noble_hashes_esm_0fdfff._.js");
+runtime.loadChunk("server/chunks/node_modules_@bufbuild_protobuf_dist_esm_5bc1f9._.js");
+runtime.loadChunk("server/chunks/node_modules_valibot_dist_index_614686.js");
+runtime.loadChunk("server/chunks/node_modules_62ba93._.js");
+runtime.loadChunk("server/chunks/node_modules_b80370._.js");
+runtime.loadChunk("server/chunks/app_api_[[___routes]]_route_tsx_46615f._.js");
+runtime.loadChunk("server/chunks/node_modules_hono-og_lib_exports_vercel_508fde.js");
+module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/[[...routes]]/route.tsx [app-route] (ecmascript)\" } [app-route] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
